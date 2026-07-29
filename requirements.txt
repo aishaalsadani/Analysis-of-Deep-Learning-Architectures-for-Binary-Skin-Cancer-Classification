@@ -1,0 +1,32 @@
+# =============================================================================
+# Reproducibility package - pinned to the versions used to execute NB1, NB2, NB3
+# =============================================================================
+# Torch stack (CUDA 12.1 wheels).
+# On CPU-only machines, install matching CPU wheels instead:
+#     pip install torch==2.5.1 torchvision==0.20.1
+# For CUDA install, use the official index (see README.md):
+#     pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 \
+#         --index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1
+torchvision==0.20.1
+
+# Data + image processing
+numpy>=1.26,<2.2
+pandas>=2.1,<2.3
+Pillow>=10.0,<11.0
+albumentations==2.0.8
+imagehash==4.3.1        # perceptual-hash duplicate audit (NB1)
+
+# Modelling helpers + metrics
+scikit-learn>=1.3,<1.6
+
+# Plotting
+matplotlib>=3.7,<3.10
+
+# Notebook runtime
+jupyter>=1.0
+ipywidgets>=8.0
+tqdm>=4.66
+
+# Optional: nicer tables in notebooks (not strictly required)
+# seaborn>=0.13
