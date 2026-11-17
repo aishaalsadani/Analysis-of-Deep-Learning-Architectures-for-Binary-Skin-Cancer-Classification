@@ -69,4 +69,4 @@ Python · PyTorch · torchvision · scikit-learn · Pandas · Matplotlib · Grad
 
 ---
 
-👩‍💻 **Aisha Alsadani**: [LinkedIn](https://linkedin.com/in/aishaalsadani) · [GitHub](https://github.com/aishaalsadani)
+👩‍💻 **Aisha Alsadani**: [LinkedIn](https://www.linkedin.com/in/aisha-alsadani/) · [GitHub](https://github.com/aishaalsadani)
